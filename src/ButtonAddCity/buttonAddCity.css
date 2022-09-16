@@ -1,0 +1,19 @@
+button {
+    width: 20%;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    cursor: pointer;
+    background: white;
+    font-size: 20px;
+    transform: scale(1);
+    transition: 1s all;
+}
+
+.input-wrap button:hover {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+.input-wrap button:active {
+    transform: scale(1.2);
+}

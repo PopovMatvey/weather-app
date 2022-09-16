@@ -1,0 +1,74 @@
+/* Card start*/
+.card-wrap {
+    width: 200px;
+    height: fit-content;
+    padding: 12px;
+    border-radius: 12px;
+    background: #3A8AC0;
+    font-size: 14px;
+    color: #fff;
+    margin: 20px 24px 20px 24px;
+    box-shadow: 3px 3px 12px 1px rgba(0, 0, 0, 0.25);
+}
+
+.card-wrap_button{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card-wrap_button button{
+    background: #fff;
+    border: none;
+    border-radius: 0px;
+    width: auto;
+    height: 30px;
+    margin-left: 15px;
+    transition: 1s all;
+}
+
+.card-wrap_button button:hover{
+    background: black;
+    color: white;
+}
+
+.card-wrap_button button:active{
+    transform: scale(1.2);
+}
+
+.card-wrap_info {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.card-wrap_info__title {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.card-wrap_info__description {
+    margin-top: 4px;
+    font-size: 16px;
+}
+
+.card-wrap_info__temprature {
+    margin-top: 6px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.card-wrap_info__temprature::after {
+    content: "°";
+}
+
+.card-wrap_mainInformation {
+    margin-top: 12px;
+}
+
+.card-wrap_mainInformation>div {
+    margin: 4px;
+}
+
+/* Card finish*/
